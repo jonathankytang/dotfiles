@@ -59,11 +59,6 @@ alias h='cd ~'
 alias root='cd /'
 alias files='cd ~/Desktop/Files'
 alias gdrive='cd ~/Google\ Drive'
-alias onedrive='cd ~/Documents/OneDrive\ -\ Goldsmiths\ College/Year-2'
-alias 1='cd ~/Documents/OneDrive\ -\ Goldsmiths\ College/Year-2/1-Algorithms_and_Data_Structures'
-alias 2='cd ~/Documents/OneDrive\ -\ Goldsmiths\ College/Year-2/2-Software_Projects'
-alias 3='cd ~/Documents/OneDrive\ -\ Goldsmiths\ College/Year-2/3-Principles_and_Applications_of_Programming/cpp'
-alias 4='cd ~/Documents/OneDrive\ -\ Goldsmiths\ College/Year-2/4-Data_and_Web'
 alias tree='tree -C'
 printf "%q\n" "$(pwd)" | pbcopy
 

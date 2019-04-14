@@ -1,3 +1,4 @@
+# credit Jake Wright
 # Open Chrome from the command line. http:// will be added automatically if no protocol is specified.
 # e.g. chrome jakewright.net
 
