@@ -1,4 +1,5 @@
 source ~/.web.sh
+source ~/.git.sh
 
 # Setting PATH for Python 3.4
 # The orginal version is saved in .bash_profile.pysave
