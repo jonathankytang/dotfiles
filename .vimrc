@@ -54,6 +54,9 @@ else
     set wildignore+=*/.git/*,*/.hg/*,*/.svn/*,*/.DS_Store
 endif
 
+"Allow access to the system clipboard
+set clipboard=unnamed
+
 "Always show current position
 set ruler
 
@@ -276,14 +279,11 @@ Plugin 'vim-airline/vim-airline-themes'
 Plugin 'mattn/emmet-vim'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'w0rp/ale'
-"Plugin 'itchyny/lightline.vim'
 Plugin 'mhinz/vim-signify'
-"Plugin 'python-mode/python-mode', { 'branch': 'develop' }
-"Plugin 'lervag/vimtex'
-"Plugin 'valloric/youcompleteme'
 Plugin 'octol/vim-cpp-enhanced-highlight'
 Plugin 'terryma/vim-multiple-cursors'
 Plugin 'kien/ctrlp.vim'
+Plugin 'JuliaEditorSupport/julia-vim'
 Plugin 'wakatime/vim-wakatime'
 call vundle#end()
 filetype plugin indent on
@@ -315,35 +315,7 @@ let g:cpp_member_variable_highlight = 1
 let g:cpp_class_decl_highlight = 1
 let g:cpp_experimental_template_highlight = 1
 
-" You complete me settings
-"let g:ycm_server_keep_logfiles = 1
-"let g:ycm_server_log_level = 'debug'
-"let g:ycm_python_interpreter_path = ''
-"let g:ycm_python_sys_path = []
-"let g:ycm_extra_conf_vim_data = [
-"  \  'g:ycm_python_interpreter_path',
-"  \  'g:ycm_python_sys_path'
-"  \]
-"let g:ycm_global_ycm_extra_conf = '~/Users/jonathantang/.vim/bundle/YouCompleteMe/.global_extra_conf.py'
-""" turn on completion in comments
-"let g:ycm_complete_in_comments=1
-""" load ycm conf by default
-"let g:ycm_confirm_extra_conf=0
-""" turn on tag completion
-"let g:ycm_collect_identifiers_from_tags_files=1
-""" only show completion as a list instead of a sub-window
-"set completeopt-=preview
-""" start completion from the first character
-"let g:ycm_min_num_of_chars_for_completion=1
-""" don't cache completion items
-"let g:ycm_cache_omnifunc=0
-""" complete syntax keywords
-"let g:ycm_seed_identifiers_with_syntax=1
-"let g:ycm_server_keep_logfiles = 1 
-"let g:ycm_server_log_level = 'debug'
-
 " Ctrlp settings
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_match_window = 'bottom,order:ttb'
 let g:ctrlp_working_path_mode = 'ra'
-
